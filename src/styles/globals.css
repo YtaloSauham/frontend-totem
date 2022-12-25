@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
+  min-height: 100%;
   background-image: url("../../public/img/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body {
 }

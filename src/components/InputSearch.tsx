@@ -10,11 +10,11 @@ export default function InputSearch({ value, onChange }) {
   }
 
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-row gap-4 mt-[10.75rem]">
       <input
-        className="w-[31.813rem] h-[2.75rem] bg-blue-300 text-white rounded-md"
+        className="md:w-[31.813rem] sm: w-[20.813rem] h-[2.75rem] bg-blue-300 text-white rounded-md"
         type="search"
-        placeholder="Buscar Linha de onibus"
+        placeholder=" Buscar Linha de onibus"
         value={visualDisplay}
         onChange={handleChange}
       />
