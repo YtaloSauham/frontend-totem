@@ -19,7 +19,7 @@ export default function NavBar() {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className=" shadow-md w-full fixed top-0 left-0 text-white">
+    <div className=" shadow-md w-full top-0 left-0 text-white">
       <div className="  md:flex items-center justify-between  bg-transparent py-4 md:px-10 px-7 ">
         <div className=" flex font-bold text-2xl cursor-pointer items-center text-white-300 ">
           <span className="text-3xl mr-1 pt-2 mb-1 max-w-[640px]">

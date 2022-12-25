@@ -1,10 +1,11 @@
+import InputSearch from "../components/InputSearch";
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
-      <Layout></Layout>
-    </>
+    <Layout>
+      <InputSearch />
+    </Layout>
   );
 }

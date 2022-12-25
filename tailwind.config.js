@@ -7,7 +7,15 @@ module.exports = {
   "./index.html",
 ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          300: '#023047',
+    },
+    orange: {
+      300: '#FFB703'
+    },},
+    },
   },
   plugins: [],
 }
