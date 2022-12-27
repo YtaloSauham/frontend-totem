@@ -18,7 +18,8 @@ export default function Home() {
   }
 
   async function getBusBySearch() {
-    const aux = sentido === "linha" ? `/${search}` : "/sentido";
+    const aux =
+      sentido === "linha" ? `/${search}` : `/sentido/${sentido}/${search}`;
 
     console.log(aux, sentido, search);
 
@@ -29,12 +30,6 @@ export default function Home() {
     const resp = await axios({
       url: `http://localhost:4000/terminal/${terminalId}${aux}`,
       method: "GET",
-      data: {
-        body: {
-          sentido: sentido,
-          local: search,
-        },
-      },
     });
 
     setBus([]);
