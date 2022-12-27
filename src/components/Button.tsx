@@ -12,7 +12,7 @@ export default function Button(props: ButtonProps) {
             px-4 py-2
             rounded-md text-black
             bg-orange-300 w-[8.875rem]
-            h-[2.75rem]}
+            h-[2.75rem] ${props.className}
         `}
     >
       {" "}
