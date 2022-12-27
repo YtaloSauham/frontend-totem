@@ -1,20 +1,19 @@
-export default function ViewBus() {
-  let onibus = [
-    { linha: "A252", bairro: "COHAMA", sentido: "CENTRO", cor: "VERMELHO" },
-    { linha: "A252", bairro: "COHAMA", sentido: "CENTRO", cor: "VERMELHO" },
-  ];
+interface ViewBusProps {
+  onibus: [];
+}
 
+export default function ViewBus(props) {
   function renderRows() {
-    return onibus?.map((onibus, i) => {
+    return props.onibus?.map((onibus, i) => {
       return (
         <div
           className="h-[177px] w-[65.938rem] bg-white flex list-none justify-between items-center font-bold text-xl"
           key={i}
         >
-          <li>{onibus.linha}</li>
-          <li>{onibus.bairro}</li>
-          <li>{onibus.sentido}</li>
-          <li>{onibus.cor}</li>
+          <li>{props.onibus.linha}</li>
+          <li>{props.onibus.bairro}</li>
+          <li>{props.onibus.sentido}</li>
+          <li>{props.onibus.cor}</li>
         </div>
       );
     });

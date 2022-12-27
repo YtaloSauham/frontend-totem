@@ -6,6 +6,7 @@ interface FormSearchProps {
   value: string;
 
   onChange?: () => any;
+  onClick?: () => any;
 }
 
 export default function FormSearch(props: FormSearchProps) {
@@ -25,12 +26,15 @@ export default function FormSearch(props: FormSearchProps) {
           value={search}
           onChange={handleChange}
         />
-        <Button
-          onClick={props.onChange}
-          className="hover:bg-green-600 font-bold"
+        <button
+          onClick={props.onClick}
+          className="hover:bg-green-600 font-bold px-4 py-2
+          rounded-md text-black
+          bg-orange-300 w-[8.875rem]
+          h-[2.75rem]"
         >
           Buscar
-        </Button>
+        </button>
       </div>
     </div>
   );
