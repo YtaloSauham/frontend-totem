@@ -38,6 +38,7 @@ export default function Home() {
 
     setBus([]);
     setBus(resp.data);
+    console.log(bus)
     validationBus()
   }
   }
@@ -62,6 +63,7 @@ export default function Home() {
             <td className="py-4 px-6">{bus.descricao}</td>
             <td className="py-4 px-6">{bus.caracteristica}</td>
             <td className="py-4 px-6">{bus.ordem}</td>
+            <td className="py-4 px-6">{bus.descricaoo}</td>
           </tr>
         </>
       );
@@ -180,6 +182,9 @@ export default function Home() {
               </th>
               <th scope="col" className="py-3 px-6">
                 Ordem
+              </th>
+              <th scope="col" className="py-3 px-6">
+                Sentido
               </th>
             </tr>
           </thead>
