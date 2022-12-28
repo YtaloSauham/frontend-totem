@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## 📜 Descrição do Projeto
+
+Aplicação desenvolvida para o cenário de um totem em um Terminal de Ônibus.  
+
+
+
+## 📜 Objetivo da aplicação
+
+Aplicação retorna linhas de ônibus baseado em uma consulta por linhas , bairros, hospiais , praias , escola e shopping centers.
+
+
+
+## 📚 Praticas adotadas durante o desenvolvimento do projeto
+
+1.TDD; <br/>
+2.SOLID; <br/>
+3. Metodologia XP
+
+
 ## Getting Started
 
 First, run the development server:
