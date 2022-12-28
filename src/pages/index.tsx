@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import ButtonRadio from "../components/ButtonRadio";
 import FormSearch from "../components/FormSearch";
 import Layout from "../components/Layout";
-import ViewBus from "../components/ViewBus";
-import styles from "../styles/Home.module.css";
+
 
 export default function Home() {
   const [bus, setBus] = useState([]);
