@@ -10,11 +10,7 @@ interface links {
 }
 
 export default function NavBar() {
-  let links: Array<links> = [
-    { name: "Pagina Inicial", link: "/" },
-    { name: "Sobre Nós", link: "/" },
-    { name: "Codigo Fonte", link: "" },
-  ];
+  let links: Array<links> = [{ name: "Pagina Inicial", link: "/" }];
 
   let [open, setOpen] = useState(false);
 
