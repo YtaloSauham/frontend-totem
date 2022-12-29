@@ -18,6 +18,14 @@ Aplicação retorna linhas de ônibus baseado em uma consulta por linhas , bairr
 2.SOLID; <br/>
 3. Metodologia XP
 
+## Imagens do Projeto
+
+![image](https://user-images.githubusercontent.com/85992772/209886862-59035255-df91-4150-92f9-20c05073e92a.png)
+
+![image](https://user-images.githubusercontent.com/85992772/209886875-31ffa25a-e189-4725-8794-8bd4e74f2e58.png)
+
+
+
 
 ## Getting Started
 
